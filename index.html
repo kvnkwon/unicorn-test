@@ -1,0 +1,70 @@
+<!-- These are HTML comments. The browser ignores these. -->
+<!-- Refer to the HTML glossary [https://www.codecademy.com/articles/glossary-html] or google for more information about HTML. -->
+<!doctype html>
+<html>
+
+<!-- The head of the document is not visible to the user -->
+<head>
+  <meta charset="utf-8">
+
+  <!-- The title tag can be seen in the browser tab -->
+  <title>Unicorns and Rainbows</title>
+
+  <!-- This stuff sets up the page to be mobile friendly -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- This references fonts on google.com/fonts that we can use in our CSS -->
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,200italic,400italic,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- This is an external reference to bootstrap [getbootstrap.com], a big box of CSS legos -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- This is a reference to our own external stylesheet, which affects the markup
+       in this document. This is just a tidier way of organizing a website than
+       putting CSS directly in the HTML. -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<!-- Everything within the body tag is visible to the user -->
+<body>
+
+  <!-- The container-*, row, and col-* classes are for the bootstrap grid system.
+       Multiple classes can be added to a single element with a space. -->
+  <div class="content container-fluid">
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+        <section class="article-header">
+          <img src="images/unicorn-1.png" alt="" class="logo-img">
+          <h1>Rent a Unicorn</h1>
+          <p>Illustration by <a href="/">Nick Slater</a></p>
+          <hr class="article-line">
+        </section>
+        <section class="article-content">
+          <p>The unicorn is a legendary creature that has been described since antiquity as a beast with a large, pointed, spiraling horn projecting from its forehead. The unicorn was depicted in ancient seals of the Indus Valley Civilization and was mentioned by the ancient Greeks in accounts of natural history by various writers, including:</p>
+          <ul class="article-list">
+            <li>Ctesias</li>
+            <li>Strabo</li>
+            <li>Pliny the Younger</li>
+            <li>Aelian</li>
+          </ul>
+          <p><img src="images/unicorn-full-body.png" alt="" class="article-content-img">In European folklore, the unicorn is often depicted as a white horse-like or goat-like animal with a long horn and cloven hooves (sometimes a goat's beard). In the Middle Ages and Renaissance, it was commonly described as an extremely wild woodland creature, a symbol of purity and grace, which could only be captured by a virgin. In the encyclopedias its horn was said to have the power to render poisoned water potable and to heal sickness. In medieval and Renaissance times, the tusk of the narwhal was sometimes sold as unicorn horn.</p>
+          <button class="btn center-block article-btn">Rent a Unicorn Now</button>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- The footer tag tells the browser this is the bottom of the page. It usually
+       resides within the body tag. -->
+  <footer>
+    <p>
+      <span class="red">&copy</span>
+      <span class="orange">2</span><span class="yellow">0</span><span class="green">1</span><span class="blue">6</span>
+      <span class="magenta">Tradecraft</span>
+      <span class="purple">Product Design</span>
+    </p>
+  </footer>
+
+</body>
+</html>

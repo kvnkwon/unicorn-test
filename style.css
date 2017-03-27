@@ -1,0 +1,85 @@
+/* This is a comment in CSS. Different syntax than the HTML file, but has the same effect. */
+/* Refer to the CSS Almanac [https://css-tricks.com/almanac/] for a complete list of CSS properties. */
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+/* Your CSS goes here. */
+.article-header {
+  text-align: center;
+}
+
+.logo-img {
+  width: 150px;
+  margin-top: 36px;
+  margin-bottom: 18px;
+}
+
+.article-header > h1 {
+  color: #05d1ff;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.article-header > p {
+  text-transform: uppercase;
+}
+
+hr.article-line {
+  margin: 44px 0;
+}
+
+.article-list {
+  margin: 42px 0;
+}
+
+.article-content-img {
+  float: right;
+  width: 180px;
+}
+
+.article-btn {
+  margin: 72px auto;
+  background-color: transparent;
+  border: 3px solid #eeeeee;
+  border-radius: 5px;
+  padding: 12px 16px;
+  font-size: 18px;
+}
+
+.red {
+  color: red;
+}
+
+.magenta {
+  color: #ff4aff;
+}
+
+.purple {
+  color: #9a079a;
+}
+
+.yellow {
+  color: #f5ed00;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: #0cc10c;
+}
+
+.blue {
+  color: #0f7fec;
+}
+
+footer {
+  text-align: center;
+  background-color: #eeeeee;
+  padding: 60px 0;
+}
